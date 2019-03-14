@@ -1,5 +1,6 @@
 # MiniJava_compiler
-Implementation of a compiler front end for the MiniJava language(MiniJava -> LLVM IR) using javaCC and JTB tools. MiniJava language is a small subset of Java
+Implementation of a compiler front end for the MiniJava language(MiniJava -> LLVM IR) using javaCC and JTB tools. MiniJava language is a small subset of Java .
+Semantic analysis and LLVM IR code generation is done utilizing the visitor pattern.
 
 ## Compilation
 ~~~
